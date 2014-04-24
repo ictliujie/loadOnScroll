@@ -78,7 +78,7 @@ var loadOnScroll = (function($){
 		}
 	};
 	/*
-	 * 刷新组件，只要是对子元素大小，加载状态等的更新，这个是作为用户自定义函数的必须的回调
+	 * 刷新组件，主要是对子元素大小，加载状态等的更新，这个是作为用户自定义函数的必须的回调
 	 */
 	_loadOnScroll.prototype.refresh = function(){
 		var self = this,
