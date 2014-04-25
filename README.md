@@ -1,10 +1,10 @@
 loadOnScroll
 ============
-loadOnScroll组件，用于在页面滚动时动态加载数据
+loadOnScroll组件，用于在页面或者元素滚动时动态加载数据，支持垂直滚动和水平滚动。
 
 构造属性：
 
-  element: document.body,  //可以自动伸缩的元素
+  	element: document.body,  //可以自动伸缩的元素
   
 	container: window,  //默认的容器
 	
